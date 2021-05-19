@@ -1,8 +1,9 @@
 .option{
 	background-color: #e4e4e4;
 	padding: 100px;
-	color: black;
+	color: gray;
 	cursor: pointer;
+	font-family: 'KoHo', sans-serif;
 }
 .option:hover{
 	border-style: solid;
