@@ -1,6 +1,6 @@
 .option{
 	background-color: #e4e4e4;
-	padding: 10px;
+	padding: 20px;
 	color: gray;
 	cursor: pointer;
 	font-family: 'KoHo', sans-serif;
@@ -9,4 +9,10 @@
 	border-style: solid;
 	border-color: #e4e4e4;
 	color: black;
+}
+.lrow{
+	border-left-style: solid;
+	border-right-style: solid;
+	border-left-color: black;
+	border-right-color: black;
 }
