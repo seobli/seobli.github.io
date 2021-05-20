@@ -1,11 +1,12 @@
 .option{
 	background-color: #e4e4e4;
-	padding: 60px;
+	padding: 10px;
 	color: gray;
 	cursor: pointer;
 	font-family: 'KoHo', sans-serif;
 }
 .option:hover{
 	border-style: solid;
-	border-color: grey;
+	border-color: #e4e4e4;
+	color: black;
 }
