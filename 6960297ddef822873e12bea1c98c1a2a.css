@@ -19,12 +19,12 @@
 	border-right-width: 1px;
 }
 .dropbtn{
-	background-color: #908d8d;
+	background-color: #dad4d4;
 	color: black;
 	padding: 5px;
 	font-size: 16px;
 	border-style: dotted;
-	width: 100%;
+	flex: 1;
 }
 .dropdown-container{
 	display: inline-block;
@@ -48,3 +48,4 @@
 .dropdown-container:hover .dropdown-content{display: block;}
 .dropdown-container:hover .dropbtn{background-color: #3e8e41;}
 .header{font-family: 'KoHo', sans-serif;}
+.gridpx{flex: 1; background-color: green;}
