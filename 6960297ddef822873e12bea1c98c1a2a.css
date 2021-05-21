@@ -48,6 +48,6 @@
 }
 .dropdown-content a:hover {background-color: #ddd;}
 .dropdown-container:hover .dropdown-content{display: block;}
-.dropdown-container:hover .dropbtn{background-color: #3e8e41;}
+.dropdown-container:hover .dropbtn{background-color: black; color: white;}
 .header{font-family: 'KoHo', sans-serif;}
-.gridpx{flex: 1; background-color: green;}
+.gridpx{flex: 1; background-color: green; padding: 10px;}
