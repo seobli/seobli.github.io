@@ -1,4 +1,4 @@
-@keyframe throb{
+@keyframes throb{
 	0% {letter-spacing: 1px;}
 	25% {letter-spacing: 2px;}
 	50% {letter-spacing: 3px;}
