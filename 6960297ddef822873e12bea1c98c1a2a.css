@@ -1,3 +1,14 @@
+@keyframe throb{
+	0% {letter-spacing: 1px;}
+	25% {letter-spacing: 2px;}
+	50% {letter-spacing: 3px;}
+	75% {letter-spacing: 4px;}
+	100% {letter-spacing: 5px;}
+}
+.caption{
+	animation-name: throb;
+	animation-duration: 5s;
+}
 .option{
 	background-color: #e4e4e4;
 	padding: 20px;
@@ -9,6 +20,7 @@
 	border-style: solid;
 	border-color: #e4e4e4;
 	color: black;
+	transition: 0.5s;
 }
 .lrow{
 	border-left-style: solid;
