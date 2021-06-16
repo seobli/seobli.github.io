@@ -8,6 +8,7 @@
 .caption{
 	animation-name: throb;
 	animation-duration: 5s;
+	animation-iteration-count: infinite;
 }
 .option{
 	background-color: #e4e4e4;
