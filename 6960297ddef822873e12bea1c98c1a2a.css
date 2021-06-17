@@ -65,6 +65,7 @@
 	text-decoration: none;
 	display: block;
 }
+.bridge:hover{filter: unset; transition: 1s;}
 .dropdown-content a:hover {background-color: #ddd;}
 .dropdown-container:hover .dropdown-content{display: block;}
 .dropdown-container:hover .dropbtn{background-color: black; color: white;}
