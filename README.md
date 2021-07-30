@@ -1,3 +1,2 @@
-# seobli
-# THIS IS A PRIVATE ENGINE THAT RUNS A COMPANY
-# THE CODE IS PART OF COPYRIGHTED CDN AND IS ONLY HERE FOR CURIOUS MINDS
+# SEIBLI
+This is a private engine that runs a company. The code is part of a copyrighted CDN and is only here for curious minds.
