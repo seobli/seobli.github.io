@@ -7213,12 +7213,13 @@ button.close {
     color: #888888;
     border-left: solid 1px #888888;
     cursor: pointer;
+    transition: 0.5s;
 }
 .option:hover{
     color: #272727;
     border-left: solid 20px #272727;
     letter-spacing: 3px;
-    transition: 2s;
+    transition: 0.5s;
 }
 .grid-map{
     box-sizing: border-box;
