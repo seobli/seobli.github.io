@@ -7548,3 +7548,6 @@ p{
         content: "Build a Smarter, Better, Stronger Future";
     }
 }
+.slide-display{
+    filter: invert(100%);
+}
