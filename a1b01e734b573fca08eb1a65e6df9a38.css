@@ -7551,3 +7551,11 @@ p{
 .slide-display{
     filter: invert(100%);
 }
+@media screen and (max-width:  1000px) {
+    .lg-menu{
+        display: none;
+    }
+    .sm-menu{
+        display: block;
+    }
+}
