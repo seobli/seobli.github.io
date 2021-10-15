@@ -1,0 +1,228 @@
+/*
+             
+    )______(
+    ( o  o )   
+     \    /\   __
+      \__/  \ /  \_____
+        \               \
+         \               \
+          \               |
+          ||-||---------||\  
+          || ||       |||| \    
+          || ||       ||||  *
+          || ||       ||||
+     _____||_||_______||||__________
+    
+    
+       
+            seobli|©2021
+*/
+html{
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+a{
+    cursor: none;
+    text-decoration: none;
+}
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+@media screen and (max-width:  1000px) {
+    .lg-menu{
+        display: none;
+    }
+    .sm-menu{
+        display: block;
+    }
+}
+@media screen and (min-width:  1001px) {
+    .lg-menu{
+        display: block;
+    }
+    .sm-menu{
+        display: none;
+    }
+}
+@font-face{
+    font-family: 'seobli-tech';
+    src: url('fonts/seobli-tech.woff');
+}
+@font-face{
+    font-family: 'seobli-classic';
+    src: url('fonts/seobli-classic.woff');
+}
+@font-face{
+    font-family: 'seobli-siete';
+    src: url('fonts/seobli-siete.woff');
+}
+
+@keyframes autonoma-1{
+    0%{
+        opacity: 1;
+    }
+    10%{
+        opacity: 0;
+    }
+    20%{
+        opacity: 0;
+    }
+    30%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes word-change{
+    0%{
+        content: "EVEN PRESIDENT OBAMA HAS A LAPTOP";
+    }
+    33.3333333333%{
+        content: "ALL BRANDS ALL SIZES ALL IN ONE PLACE";
+    }
+    63.3333333333%{
+        content: "GET YOUR LAPTOPS FROM THE MOST AFFORDABLE STORE IN TOWN";
+    }
+}
+.cursor{
+    width: 7rem;
+    height: 7rem;
+    border: solid 2px #000;
+    border-radius: 50%;
+    position: absolute;
+    font-size: 50px;
+    padding: 5px;
+    color: #000;
+    z-index: 1;
+}
+.cursor-interior{
+    width: 2rem;
+    height: 2rem;
+    border: solid 1px #000;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+}
+.pilot{
+    padding: 10px;
+    border-bottom: solid 1px #000;
+}
+.search-bar{
+    border: solid 1px #000;
+    padding: 10px;
+}
+.search{
+    border: none;
+}
+.id-3{
+    background-image: ;
+    transition: 0.5;
+}
+.selectable{
+    text-decoration: none;
+    color: #000;
+    transition: 0.5s;
+    height: 100%;
+}
+.id-3{
+    width: 100%;
+    background-color: #fff;
+    animation: autonoma-1 infinite 4.8s ease-in-out;
+}
+.id-4{
+    margin-top: 50px;
+}
+.eye-catcher{
+    transition: 0.5s;
+    height: 240px;
+}
+.eye-catcher:before{
+    content: "EVEN PRESIDENT OBAMA HAS A LAPTOP";
+    animation: word-change infinite 20s ease-in-out;
+}
+.section-title{
+    font-family: seobli-classic;
+    font-size: 70px;
+}
+.tab-container{
+    padding: 20px;
+    transition: 0.5s;
+}
+.tab-container:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: 0.5s;
+    border-top: solid 3px #000;
+}
+.add{
+    border-radius: 10px;
+    background-color: #000;
+    color: #fff;
+    transition: 0.5s;
+}
+.add:hover{
+    background-color: green;
+}
+.price-tag{
+    font-size: 20px;
+}
+.section-2{
+    display: none;
+}
+.section-3{
+    display: none;
+}
+.hamburger .line{
+  width: 50px;
+  height: 5px;
+  background-color: #000;
+  display: block;
+  margin: 8px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.hamburger:hover{
+  cursor: pointer;
+}
+#hamburger-1.is-active .line:nth-child(2){
+  opacity: 0;
+}
+
+#hamburger-1.is-active .line:nth-child(1){
+  -webkit-transform: translateY(13px) rotate(45deg);
+  -ms-transform: translateY(13px) rotate(45deg);
+  -o-transform: translateY(13px) rotate(45deg);
+  transform: translateY(13px) rotate(45deg);
+  background-color: red;
+}
+
+#hamburger-1.is-active .line:nth-child(3){
+  -webkit-transform: translateY(-13px) rotate(-45deg);
+  -ms-transform: translateY(-13px) rotate(-45deg);
+  -o-transform: translateY(-13px) rotate(-45deg);
+  transform: translateY(-13px) rotate(-45deg);
+  background-color: #ff0000;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  overflow-x: hidden;
+  padding-top: 30px;
+  transition: 0.5s;
+}
+.menu-item{
+    transition: 0.5s;
+}
+.menu-item:hover{
+    color: #fff;
+    transition: 0.5s;
+}
