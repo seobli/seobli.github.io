@@ -49,15 +49,15 @@ input:focus, textarea:focus, select:focus{
 }
 @font-face{
     font-family: 'seobli-tech';
-    src: url('fonts/seobli-tech.woff');
+    src: url('https://seobli.github.io/fonts/seobli-tech.woff');
 }
 @font-face{
     font-family: 'seobli-classic';
-    src: url('fonts/seobli-classic.woff');
+    src: url('https://seobli.github.iofonts/seobli-classic.woff');
 }
 @font-face{
     font-family: 'seobli-siete';
-    src: url('fonts/seobli-siete.woff');
+    src: url('https://seobli.github.iofonts/seobli-siete.woff');
 }
 
 @keyframes autonoma-1{
