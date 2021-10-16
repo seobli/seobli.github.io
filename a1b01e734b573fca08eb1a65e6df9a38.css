@@ -7477,6 +7477,41 @@ button.close {
 .primary-active:nth-child(28) {
     animation-duration: 0.6s;
 }
+.more{
+    background-color: #fff;
+    width: 100%;
+    position: fixed;
+    bottom: 70px;
+    height: 0;
+    transition: 1s;
+}
+.interior{
+    padding: 10px;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+.slectable-menu-item{
+    cursor: pointer;
+    padding: 5px;
+    transition: 0.5s;
+}
+.slectable-menu-item:hover{
+    background-color: #000;
+    color: #fff;
+    transition: 0.5s;
+}
+.cncl{
+    fill: #000000;
+    cursor: pointer;
+}
+.cncl:hover{
+    fill: #ff0000;
+}
+.opt{
+    font-family: 'KoHo', sans-serif;
+    margin-left: 10px;
+    height: 600px;
+    overflow-y: scroll;
+}
 @keyframes change-color{
     0%{fill: #fff;}
     50%{fill: #42FF00;}
