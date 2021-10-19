@@ -271,7 +271,10 @@ td,th {
     src: url(../fonts/glyphicons-halflings-regular.eot);
     src: url(../fonts/glyphicons-halflings-regular.eot?#iefix) format("embedded-opentype"),url(../fonts/glyphicons-halflings-regular.woff2) format("woff2"),url(../fonts/glyphicons-halflings-regular.woff) format("woff"),url(../fonts/glyphicons-halflings-regular.ttf) format("truetype"),url(../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format("svg")
 }
-
+@font-face{
+    font-family: 'seobli-signature';
+    src: url('https://seobli.github.io/fonts/seobli-signature.woff');
+}
 .glyphicon {
     position: relative;
     top: 1px;
@@ -7587,11 +7590,85 @@ p{
 .slide-display{
     filter: invert(100%);
 }
+.subject{
+    opacity: 1;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  overflow-x: hidden;
+  padding-top: 30px;
+  transition: 0.5s;
+}
+.menu-item{
+    font-family: 'KoHo', sans-serif; font-size: 50px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.menu-item:hover{
+    color: #fff;
+    transition: 0.5s;
+}
+.menu-item-sm{
+    font-family: 'KoHo', sans-serif; font-size: 50px;
+    margin-bottom: 25px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.menu-item-sm:hover{
+    color: #fff;
+    transition: 0.5s;
+}
+.optainer{
+    height: 500px;
+    overflow-y: scroll;
+     -ms-overflow-style: none;
+     scrollbar-width: none;
+}
+.optainer::-webkit-scrollbar{
+    display: none;
+}
+#sm-opt1{
+    margin-left: 20px;
+    display: none;
+}
+ #sm-opt2{
+    margin-left: 20px;
+    display: none;
+}
+ #sm-opt3{
+    margin-left: 20px;
+    display: none;
+}
+#green{
+    opacity: 0;
+    color: green;
+    transition: 0.5s;
+}
+.signature{
+    margin-left: 40%;
+    font-family: seobli-signature;
+    color: #fff;
+}
 @media screen and (max-width:  1000px) {
     .lg-menu{
         display: none;
     }
     .sm-menu{
         display: block;
+    }
+}
+@media screen and (min-width:  1001px) {
+    .lg-menu{
+        display: block;
+    }
+    .sm-menu{
+        display: none;
     }
 }
