@@ -5784,6 +5784,67 @@ function(l) {
         })
     })
 }(jQuery);
+function avail1(){
+    var subject = document.getElementById("sm-opt1")
+    if(subject.style.display == "none"){
+        subject.style.display = "block";
+    }else{
+        subject.style.display = "none";
+    }
+}
+function avail2(){
+    var subject = document.getElementById("sm-opt2")
+    if(subject.style.display == "none"){
+        subject.style.display = "block";
+    }else{
+        subject.style.display = "none";
+    }
+}
+function avail3(){
+    var subject = document.getElementById("sm-opt3")
+    if(subject.style.display == "none"){
+        subject.style.display = "block";
+    }else{
+        subject.style.display = "none";
+    }
+}
+function openList1(){
+    document.getElementById("more").style.height = "95%";
+    document.getElementById("more").style.transition = "1s";
+}
+function closeList1(){
+    document.getElementById("cncl").style.transform = "rotate(180deg)";
+    document.getElementById("cncl").style.transition = "0.5s";
+    document.getElementById("more").style.height = "0";
+    document.getElementById("more").style.transition = "1.5s";
+}
+function cs(){
+    alert("This feature is Coming Soon :)");
+}
+function slide(){
+    var green = document.getElementById("green");
+    var element = document.getElementById("sidenav");
+    document.getElementById("main").style.backgroundColor = '#fff';
+    document.getElementById("root").style.opacity = '0';
+    document.getElementById("root").style.transition = '0.5s';
+    function delay(time) {
+      return new Promise(resolve => setTimeout(resolve, time));
+    }
+
+    delay(1000).then(() => element.style.width = '100%');
+}
+function antiSlide(){
+    var element = document.getElementById("sidenav");
+    element.style.width = '0';
+    document.getElementById("root").style.transition = '0.5s';
+    document.getElementById("root").style.opacity = '1';
+    function delay(time) {
+      return new Promise(resolve => setTimeout(resolve, time));
+    }
+
+    delay(1000).then(() => document.getElementById("main").style.backgroundColor = '#242424');
+
+}
 function cmi1(){
         document.getElementById("cmi1").style.backgroundColor = "#000";
         document.getElementById("cmi1").style.color = "#fff";
