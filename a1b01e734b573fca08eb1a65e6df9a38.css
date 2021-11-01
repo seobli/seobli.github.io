@@ -275,6 +275,14 @@ td,th {
     font-family: 'seobli-signature';
     src: url('https://seobli.github.io/fonts/seobli-signature.woff');
 }
+@font-face{
+    font-family: 'seobli-appia';
+    src: url('https://seobli.github.io/fonts/seobli-appia.woff');
+}
+@font-face{
+    font-family: 'seobli-tw';
+    src: url('https://seobli.github.io/fonts/seobli-tw.woff');
+}
 .glyphicon {
     position: relative;
     top: 1px;
