@@ -5845,6 +5845,9 @@ function antiSlide(){
     delay(1000).then(() => document.getElementById("main").style.backgroundColor = '#242424');
 
 }
+function get(id){
+    return document.getElementById(id);
+}
 function cmi1(){
         document.getElementById("cmi1").style.backgroundColor = "#000";
         document.getElementById("cmi1").style.color = "#fff";
