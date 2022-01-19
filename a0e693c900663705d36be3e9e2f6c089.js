@@ -5848,6 +5848,9 @@ function antiSlide(){
 function get(id){
     return document.getElementById(id);
 }
+function retreive(id){
+    return document.getElementById(id);
+}
 function cmi1(){
         document.getElementById("cmi1").style.backgroundColor = "#000";
         document.getElementById("cmi1").style.color = "#fff";
@@ -6515,7 +6518,7 @@ var 메시지다이제스트알고리즘 = function (string) {
 
    	return temp.toLowerCase();
 }
-const slider = get('draggable');
+const slider = retreive('draggable');
 let mouseDown = false;
  let startX, scrollLeft;
  let startDragging = function(e){
