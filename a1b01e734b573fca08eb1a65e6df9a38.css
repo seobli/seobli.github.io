@@ -276,6 +276,10 @@ td,th {
     src: url('https://seobli.github.io/fonts/seobli-signature.woff');
 }
 @font-face{
+    font-family: 'seobli-thin';
+    src: url('https://seobli.github.io/fonts/seobli-thin.woff');
+}
+@font-face{
     font-family: 'seobli-appia';
     src: url('https://seobli.github.io/fonts/seobli-appia.woff');
 }
