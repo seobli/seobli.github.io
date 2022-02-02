@@ -1,0 +1,36 @@
+.index-title{
+	margin-top: 20%;
+	font-family: 'seobli-thin';
+}
+.lang-container{
+	margin-top: 20px;
+	margin-bottom: 10%;
+}
+.sm-btn-fmt{
+	padding: 15px;
+	border: 1px solid;
+	cursor: pointer;
+}
+.sm-btn-fmt:hover{
+	color: #fff;
+	background-color: #000;
+	transition: 0.5s;
+}
+.sub{
+	padding-top: 20%;
+	color: #fff;
+	font-family: 'seobli-thin';
+}
+.glow{
+	color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+    transition: 0.5s;
+}
