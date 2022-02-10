@@ -5784,7 +5784,9 @@ function(l) {
         })
     })
 }(jQuery);
-function get(id){ return document.getElementById(id);}
+function get(id){
+    return document.getElementById(id);
+}
 function avail1(){
     var subject = document.getElementById("sm-opt1")
     if(subject.style.display == "none"){
