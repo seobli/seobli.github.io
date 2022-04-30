@@ -21,6 +21,37 @@
 	color: #fff;
 	font-family: 'seobli-thin';
 }
+.opt-menu{
+	opacity: 0;
+	display: none;
+	font-family: 'seobli-thin';
+}
+.br{
+	border-right: solid 1px #fff;
+}
+.ns{
+	display: none;
+}
+.clickable1{
+	cursor: pointer;
+	color: #423e3e;
+	transition: 0.5s;
+}
+.clickable1:hover{
+	padding-top: 20px;
+	color: #fff;
+	transition: 0.5s;
+}
+.space{
+	padding-top: 30%;
+}
+.ns-msg{
+	font-family: seobli-tw;
+	background-color: #000;
+	padding: 20px;
+	border: solid 5px #00ff00;
+	color: #00ff00;
+}
 .glow{
 	color: #fff;
   text-shadow:
