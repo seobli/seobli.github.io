@@ -7667,6 +7667,9 @@ p{
     color: green;
     transition: 0.5s;
 }
+#brandingLogo{
+    display: none;
+}
 .signature{
     margin-left: 40%;
     font-family: seobli-signature;
