@@ -291,6 +291,10 @@ td,th {
     font-family: 'seobli-sans';
     src: url('https://seobli.github.io/fonts/seobli-sans.woff');
 }
+@font-face{
+    font-family: 'seobli-grotesque';
+    src: url('https://seobli.github.io/fonts/seobli-grotesque.woff2');
+}
 .glyphicon {
     position: relative;
     top: 1px;
