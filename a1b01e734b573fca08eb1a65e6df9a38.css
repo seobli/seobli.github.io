@@ -295,6 +295,22 @@ td,th {
     font-family: 'seobli-grotesque';
     src: url('https://seobli.github.io/fonts/seobli-grotesque.woff2');
 }
+@font-face{
+    font-family: 'seobli-fabrica';
+    src: url('https://seobli.github.io/fonts/seobli-fabrica.woff');
+}
+@font-face{
+    font-family: 'seobli-fl';
+    src: url('https://seobli.github.io/fonts/seobli-fl.woff2');
+}
+@font-face{
+    font-family: 'seobli-ola';
+    src: url('https://seobli.github.io/fonts/seobli-ola.woff2');
+}
+@font-face{
+    font-family: 'seobli-tech';
+    src: url('https://seobli.github.io/fonts/seobli-tech.woff');
+}
 .glyphicon {
     position: relative;
     top: 1px;
