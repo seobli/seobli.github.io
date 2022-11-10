@@ -311,6 +311,18 @@ td,th {
     font-family: 'seobli-tech';
     src: url('https://seobli.github.io/fonts/seobli-tech.woff');
 }
+@font-face{
+    font-family: 'seobli-wt';
+    src: url('https://seobli.github.io/fonts/seobli-wt.woff2');
+}
+@font-face{
+    font-family: 'seobli-neon';
+    src: url('https://seobli.github.io/fonts/seobli-neon.woff2');
+}
+@font-face{
+    font-family: 'seobli-elegant';
+    src: url('https://seobli.github.io/fonts/seobli-elegant.woff2');
+}
 .glyphicon {
     position: relative;
     top: 1px;
