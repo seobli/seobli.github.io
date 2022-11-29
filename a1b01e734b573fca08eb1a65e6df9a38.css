@@ -7707,6 +7707,62 @@ p{
     font-family: seobli-signature;
     color: #fff;
 }
+
+.darkened{
+    background-color: rgba(0,0,0,.9);
+}
+.headspace{
+    padding: 20px 0 20px 0;
+}
+.tvspace{
+    border: solid 1px #4c4c4c;
+    border-radius: 10px;
+    height: 500px;
+}
+.sidemenu1::-webkit-scrollbar {
+    display: none;
+}
+.sidemenu1{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    border-right: solid 1px #4c4c4c;
+    overflow-y: scroll;
+}
+.sidemenu2::-webkit-scrollbar {
+    display: none;
+}
+.sidemenu2{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    border-right: solid 1px #4c4c4c;
+    background-color: rgba(0,0,0,.8);
+    overflow-y: scroll;
+}
+
+.tvspaceactive::-webkit-scrollbar {
+    display: none;
+}
+.tvspaceactive{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    background-color: #000;
+    overflow-y: scroll;
+}
+.tv1{
+    width: 100%;
+}
+.cntly{
+    border-bottom: solid 1px #4c4c4c;
+    padding: 10px;
+    cursor: pointer;
+}
+.cntly2{
+    border-bottom: solid 1px #4c4c4c;
+}
+.footnote{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
 @media screen and (max-width:  1000px) {
     .lg-menu{
         display: none;
