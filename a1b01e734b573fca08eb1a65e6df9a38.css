@@ -327,6 +327,10 @@ td,th {
     font-family: 'seobli-segoe';
     src: url('https://seobli.github.io/fonts/seobli-segoe.woff2');
 }
+@font-face{
+    font-family: 'seobli-etica';
+    src: url('https://seobli.github.io/fonts/seobli-etica.woff2');
+}
 .glyphicon {
     position: relative;
     top: 1px;
