@@ -331,6 +331,18 @@ td,th {
     font-family: 'seobli-etica';
     src: url('https://seobli.github.io/fonts/seobli-etica.woff2');
 }
+@font-face{
+    font-family: 'seobli-graphik-reg';
+    src: url('https://seobli.github.io/fonts/seobli-graphik-reg.woff2');
+}
+@font-face{
+    font-family: 'seobli-graphik-mid';
+    src: url('https://seobli.github.io/fonts/seobli-graphik-mid.woff2');
+}
+@font-face{
+    font-family: 'seobli-graphik-bold';
+    src: url('https://seobli.github.io/fonts/seobli-graphik-bold.woff2');
+}
 .glyphicon {
     position: relative;
     top: 1px;
