@@ -1,2 +1,2 @@
 # SEOBLI
-This is a private routing engine that runs a company.
+Seobli provides and leases advanced computer software.
